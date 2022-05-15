@@ -101,7 +101,7 @@
         <!-- Internal Settings -->
 
         <provider
-            android:name="org.microg.mgms.settings.SettingsProvider"
+            android:name="org.microg.egms.settings.SettingsProvider"
             android:authorities="${applicationId}.microg.settings"
             android:exported="false" />
 
@@ -112,7 +112,7 @@
             android:authorities="com.mgoogle.android.gsf.gservices"
             android:exported="true" />
         <provider
-            android:name="org.microg.mgms.settings.GoogleSettingsProvider"
+            android:name="org.microg.egms.settings.GoogleSettingsProvider"
             android:authorities="com.mgoogle.settings"
             android:exported="true" />
         <provider
@@ -410,12 +410,12 @@
 
         <provider
             android:name="org.microg.gms.phenotype.ConfigurationProvider"
-            android:authorities="com.mgoogle.android.gms.phenotype"
+            android:authorities="com.egoogle.android.gms.phenotype"
             android:exported="true" />
 
         <service android:name="org.microg.gms.phenotype.PhenotypeService">
             <intent-filter>
-                <action android:name="com.mgoogle.android.gms.phenotype.service.START" />
+                <action android:name="com.egoogle.android.gms.phenotype.service.START" />
             </intent-filter>
         </service>
 
