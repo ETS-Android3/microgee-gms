@@ -9,9 +9,9 @@ import android.content.Context
 import android.content.Intent
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
-import org.microg.mgms.settings.SettingsContract.CheckIn
-import org.microg.mgms.settings.SettingsContract.getSettings
-import org.microg.mgms.settings.SettingsContract.setSettings
+import org.microg.egms.settings.SettingsContract.CheckIn
+import org.microg.egms.settings.SettingsContract.getSettings
+import org.microg.egms.settings.SettingsContract.setSettings
 import java.io.Serializable
 
 data class ServiceInfo(val configuration: ServiceConfiguration, val lastCheckin: Long, val androidId: Long) : Serializable

@@ -8,9 +8,9 @@ import android.net.ConnectivityManager
 import android.net.NetworkInfo
 import android.util.Log
 import org.microg.gms.gcm.TriggerReceiver.FORCE_TRY_RECONNECT
-import org.microg.mgms.settings.SettingsContract
-import org.microg.mgms.settings.SettingsContract.Gcm
-import org.microg.mgms.settings.SettingsContract.setSettings
+import org.microg.egms.settings.SettingsContract
+import org.microg.egms.settings.SettingsContract.Gcm
+import org.microg.egms.settings.SettingsContract.setSettings
 
 data class GcmPrefs(
     val isGcmLogEnabled: Boolean,

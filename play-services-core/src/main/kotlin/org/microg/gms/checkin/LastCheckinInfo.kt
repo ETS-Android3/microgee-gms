@@ -16,8 +16,8 @@
 package org.microg.gms.checkin
 
 import android.content.Context
-import org.microg.mgms.settings.SettingsContract
-import org.microg.mgms.settings.SettingsContract.CheckIn
+import org.microg.egms.settings.SettingsContract
+import org.microg.egms.settings.SettingsContract.CheckIn
 
 data class LastCheckinInfo(
     val lastCheckin: Long,
